@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+     <!-- Main Template CSS File -->
+   <link rel="stylesheet" href="css/master.css" />
+   <!-- Render All Elements Normally -->
+   <link rel="stylesheet" href="css/normalize.css" />
+   <!-- Font Awesome Library -->
+   <link rel="stylesheet" href="css/all.min.css" />
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+     rel="stylesheet"/>
+</head>
+<body>
+
+<!-- div contain the form -->
+    <div class="wrapper">
+        <form action="">
+
+          <!--div contain the dark mode-->
+          <div class="dark-mode">
+            <div class="container">
+            <div class="buttun"></div>
+            <div class="right-moon">
+                <i class="fa-solid fa-moon"></i>
+              </div>
+              <div class="left-sun">
+                <i class="fa-regular fa-sun fa-spin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--start form info-->
+          <h1>Login</h1>
+        <div class="input-box">
+            <input type="text" id="email" placeholder= "phone or email" >
+            <i class="fa-solid fa-user"></i>
+        </div> 
+        <div class="erroruser"></div> 
+        
+        <div class="input-box">
+          <input type="password" id="pass" placeholder="Password" >
+          <div class="show-hide">
+          <i id="open-eye" class="fa-solid fa-eye"></i>
+          <i id="close-eye" class="fa-solid fa-eye-slash"></i>
+        </div>
+     </div>
+     <div class="errorpass">
+      The password you enter must be between 4 and 16 latter .
+      </div>
+      <div class="remember-forgot">
+   <label><input id="rememberMe"  value="remember" type="checkbox" > stay sign in</label>
+     <a href="#">Forgot password?</a> 
+   </div>
+   <button type="submit" id="subm" class="btn">Login</button>
+   <div class="register-link">
+    <p>Don't have an account? <a href="#">Register</a></p>
+</div>
+ </form>
+ <script src="js/master.js"></script>
+</body>
+</html>

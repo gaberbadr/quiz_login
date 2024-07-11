@@ -1,0 +1,82 @@
+[
+  {
+      "title": "Which property is used to change the background color?",
+      "answer_1": "color",
+      "answer_2": "background-color",
+      "answer_3": "background-image",
+      "answer_4": "background",
+      "right_answer": "background-color"
+  },
+  {
+      "title": "How do you center a block element horizontally in CSS?",
+      "answer_1": "margin: center;",
+      "answer_2": "text-align: center;",
+      "answer_3": "margin: auto;",
+      "answer_4": "padding: center;",
+      "right_answer": "margin: auto;"
+  },
+  {
+      "title": "Which CSS property is used to change the text color of an element?",
+      "answer_1": "font-color",
+      "answer_2": "text-color",
+      "answer_3": "color",
+      "answer_4": "text-decoration",
+      "right_answer": "color"
+  },
+  {
+      "title": "What is the correct syntax for referring to an external style sheet?",
+      "answer_1": "<style src='mystyle.css'>",
+      "answer_2": "<stylesheet>mystyle.css</stylesheet>",
+      "answer_3": "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+      "answer_4": "<link src='mystyle.css' rel='stylesheet'>",
+      "right_answer": "<link rel='stylesheet' type='text/css' href='mystyle.css'>"
+  },
+  {
+      "title": "Which property is used to change the font of an element?",
+      "answer_1": "font-family",
+      "answer_2": "font-style",
+      "answer_3": "font-weight",
+      "answer_4": "font-size",
+      "right_answer": "font-family"
+  },
+  {
+      "title": "How do you make each word in a text start with a capital letter?",
+      "answer_1": "text-transform: capitalize;",
+      "answer_2": "text-style: capital;",
+      "answer_3": "transform: capitalize;",
+      "answer_4": "text-transform: uppercase;",
+      "right_answer": "text-transform: capitalize;"
+  },
+  {
+      "title": "How do you select an element with id 'demo'?",
+      "answer_1": "#demo",
+      "answer_2": ".demo",
+      "answer_3": "demo",
+      "answer_4": "*demo",
+      "right_answer": "#demo"
+  },
+  {
+      "title": "Which property is used to add or remove a border around an element?",
+      "answer_1": "border-style",
+      "answer_2": "border-width",
+      "answer_3": "border",
+      "answer_4": "border-color",
+      "right_answer": "border"
+  },
+  {
+      "title": "Which CSS property controls the text size?",
+      "answer_1": "font-style",
+      "answer_2": "text-size",
+      "answer_3": "font-size",
+      "answer_4": "text-style",
+      "right_answer": "font-size"
+  },
+  {
+      "title": "How do you add a comment in a CSS file?",
+      "answer_1": "// this is a comment",
+      "answer_2": "/* this is a comment */",
+      "answer_3": "' this is a comment",
+      "answer_4": "// this is a comment //",
+      "right_answer": "/* this is a comment */"
+  }
+]

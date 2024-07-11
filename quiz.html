@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+<!-- join folder of css-->
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/quiz.css" />
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/all.min.css" />
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+</head>
+<body>
+<!--start quize-->
+<div class="quiz-app">
+  <div class="bar"><div><span></span></div></div>
+  <div class="clearfix"></div>
+
+  <div class="quiz-info">
+    <div class="category">Corse: <span>css</span></div>
+    <div class="count">Questions number: <span></span></div>
+  </div>
+
+  <div class="quiz-area"></div>
+
+  <div class="answers-area"></div>
+
+  <button class="submit-button">Next Answer</button>
+  <div class="time">
+    <div class="countdown"></div>
+  </div>
+
+
+  <div class="results"></div>
+  
+  <div class="option-box">
+    <ul class="colors-list">
+      <li class="active" data-color="rgb(40, 145, 250)"></li>
+      <li data-color="#E91E63"></li>
+      <li data-color="#009688"></li>
+      <li data-color="#9b9135"></li>
+      <li data-color="green"></li>
+    </ul>
+  </div>
+
+</div>
+<!--end quize-->
+
+<script src="js/quiz.js"></script>
+</body>
+</html>
